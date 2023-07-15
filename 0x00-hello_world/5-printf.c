@@ -1,10 +1,9 @@
-#!/bin/bash
 #include<stdio.h>
 
 /**
-*main - Entry point
+*main - A C program that prints with printf
 *
-*Return: Always 0 (Success)
+*Return: 0 (Success)
 */
 int main(void)
 {
