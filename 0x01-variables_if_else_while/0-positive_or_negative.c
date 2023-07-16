@@ -2,19 +2,22 @@
 #include <time.h>
 #include <stdio.h>
 
-main - A program to assign n as positive or negative to zero
+/**
+*main - A program to assign n as positive or negative to zero
+*
+*Return: 0
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0) {	
+	if (n > 0)
 		printf("is poitive\n");
-	} else if (n < 0) {
+	else if (n < 0)
 		printf("is negative\n");
-	} else {
+	else
 		printf("is zero\n");
-	}
 	return (0);
 }
