@@ -11,11 +11,11 @@ int main(void)
 {
 	int lowercase;
 
-	for (lowercase = 'a'; lowercase < 'z'l lowercase++)
+	for (lowercase = 'a'; lowercase < 'z'; lowercase++)
 	{
 		if (lowercase != 'e' && lowercase != 'q')
 		{
-			putch(lowercase);
+			putchar(lowercase);
 		}
 	}
 	putchar('\n');

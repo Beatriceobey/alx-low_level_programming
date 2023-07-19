@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  *main - Entry point
  *description: Print all combination of single digits numbers
