@@ -1,7 +1,7 @@
-#include "main.h"
+#include <stdio.h>
 /**
- *main - print 1 - 100 followed by new line
- *description: print Fizz for multiples of three instead of the number, print Buzz for multiples of five and print FizzBuzz for multiples of both three and five
+ *main - print 1 - 100
+ *description: print Fizz, Buzz and FizzBuzz
  *Return: Always 0
  */
 
@@ -25,7 +25,7 @@ int main(void)
 		}
 		else if (i == 1)
 		{
-			printf("%d", i);
+			printf(" %d", i);
 		}
 	}
 	printf("\n");
