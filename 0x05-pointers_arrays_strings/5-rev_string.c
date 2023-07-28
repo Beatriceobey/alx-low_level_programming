@@ -6,14 +6,12 @@
  */
 void rev_string(char *s)
 {
-	char reverse - s[0];
-	int countter = 0;
+	char reverse = s[0];
+	int counter = 0;
 	int a;
 
 	while (s[counter] != '\0')
-	{
-		counter++;
-	}
+	counter++;
 	for (a = 0; a < counter; a++)
 	{
 		counter--;
