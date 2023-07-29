@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
- * main - Use prototype
- * description: Write a function that prints the sign of a number.
- *
- * Return: Always 0.
+ *print_sign - Write a function that prints the sign of a number
+ *@n: input value
+ * Return: 0
  */
 int print_sign(int n)
 {
@@ -24,5 +22,4 @@ int print_sign(int n)
 		return (0);
 	}
 	putchar('\n')
-	return (0);
 }

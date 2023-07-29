@@ -1,14 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *_abs - a function that computes the absolute value of an integer
+ *@i: int to check
+ * Return: 0
  */
-int _abs(int);
+int _abs(int i)
 {
-	if (1 >= 0)
+	if (i >= 0)
 	{
 		return (i);
 	}

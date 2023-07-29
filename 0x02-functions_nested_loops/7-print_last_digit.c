@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * main - print last digit of number
- * description: Write a function that prints the last digit of a number.
- *
- * Return: Always 0.
+ *print_last_digit - Write a function that prints the last digit of a number
+ *@lowercase: int to check
+ *Return: 0
  */
-int print_last_digit(int)
+int print_last_digit(int lowercase)
 {
 	int lowercase;
 
@@ -14,11 +12,11 @@ int print_last_digit(int)
 	if (lowercase < 0)
 	{
 		_putchar(-lowercase + 48);
-		return (-l);
+		return (-lowercase);
 	}
 	else
 	{
-		_pucvhar(l +48);
+		_putchar(lowercase + 48);
 		return (lowercase);
 	}
 }
