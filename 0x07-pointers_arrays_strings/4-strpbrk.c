@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_strpbrk -  function locates the first occurrence in the string s
- *@s:string
+ *@s: string
  *@accept: string
  *Return: 0
  */
@@ -18,5 +18,6 @@ char *_strpbrk(char *s, char *accept);
 		}
 		s++;
 	}
+
 	return ('\0');
 }
